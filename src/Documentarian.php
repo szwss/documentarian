@@ -1,13 +1,13 @@
 <?php
 
-namespace Mpociot\Documentarian;
+namespace Szwss\Documentarian;
 
 use Mni\FrontYAML\Parser;
 use Windwalker\Renderer\BladeRenderer;
 
 /**
  * Class Documentarian
- * @package Mpociot\Documentarian
+ * @package Szwss\Documentarian
  */
 class Documentarian
 {
