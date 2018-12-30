@@ -1,12 +1,12 @@
 {
-  "name": "mpociot/documentarian",
+  "name": "szwss/documentarian",
   "description": "",
   "keywords": [],
   "license": "Apache 2",
   "authors": [
     {
-      "name": "Marcel Pociot",
-      "email": "m.pociot@gmail.com"
+      "name": "szwss",
+      "email": "szwss@qq.com"
     }
   ],
   "autoload": {
@@ -14,7 +14,7 @@
       "includes/helpers.php"
     ],
     "psr-4": {
-      "Mpociot\\Documentarian\\": "src/"
+      "Szwss\\Documentarian\\": "src/"
     }
   },
   "bin": [
