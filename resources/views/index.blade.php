@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>{{$page['title']}}</title>
 
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="{{ config('apidoc.static_resource_url',null) }}css/style.css" />
+    <script src="{{ config('apidoc.static_resource_url',null) }}js/all.js"></script>
 
 
     @if(isset($page['language_tabs']))
@@ -23,11 +23,11 @@
     <a href="#" id="nav-button">
       <span>
         NAV
-        <img src="images/navbar.png" />
+        <img src="{{ config('apidoc.static_resource_url',null) }}images/navbar.png" />
       </span>
     </a>
     <div class="tocify-wrapper">
-        <img src="images/logo.png" />
+        <img src="{{ config('apidoc.static_resource_url',null) }}images/logo.png" />
         @if(isset($page['language_tabs']))
             <div class="lang-selector">
                 @foreach($page['language_tabs'] as $lang)
