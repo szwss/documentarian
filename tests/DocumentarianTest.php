@@ -43,7 +43,7 @@ class DocumentarianTest extends PHPUnit_Framework_TestCase
         // Test that stubbed files exist
         $this->assertFileExists($outputDir . '/source/index.md');
         $this->assertFileExists($outputDir . '/source/.gitignore');
-        $this->assertFileExists($outputDir . '/source/includes/_status_code.md');
+        $this->assertFileExists($outputDir . '/source/includes/_errors.md');
         $this->assertFileExists($outputDir . '/source/package.json');
         $this->assertFileExists($outputDir . '/source/gulpfile.js');
         $this->assertFileExists($outputDir . '/source/config.php');
