@@ -11,6 +11,7 @@ toc_footers:
   - <a href='http://github.com/mpociot/whiteboard'>Documentation Powered by Whiteboard</a>
 
 includes:
+  - succeed
   - errors
 
 search: true
