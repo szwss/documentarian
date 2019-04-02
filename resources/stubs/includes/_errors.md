@@ -5,16 +5,21 @@
 The Kittn API uses the following error codes:
 
 
-Error Code | Meaning
----------- | -------
-400 | Bad Request -- Your request sucks
-401 | Unauthorized -- Your API key is wrong
-403 | Forbidden -- The kitten requested is hidden for administrators only
-404 | Not Found -- The specified kitten could not be found
-405 | Method Not Allowed -- You tried to access a kitten with an invalid method
-406 | Not Acceptable -- You requested a format that isn't json
-410 | Gone -- The kitten requested has been removed from our servers
-418 | I'm a teapot
-429 | Too Many Requests -- You're requesting too many kittens! Slow down!
-500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarially offline for maintanance. Please try again later.
+Error Code | Meaning | Explain
+---------- | ------- | -------
+400 | Bad Request | Your request sucks
+401 | Unauthorized | Your API key is wrong
+403 | Forbidden | The kitten requested is hidden for administrators only
+404 | Not Found | The specified kitten could not be found
+405 | Method Not Allowed | You tried to access a kitten with an invalid method
+406 | Not Acceptable | You requested a format that isn't json
+410 | Gone | The kitten requested has been removed from our servers
+418 | I'm a teapot | 
+422 | Unprocessable Entity | 不可处理的实体,一般用于数据验证错误
+429 | Too Many Requests | You're requesting too many kittens! Slow down!
+500 | Internal Server Error | 服务器错误
+503 | Service Unavailable | We're temporarially offline for maintanance. Please try again later.
+428 | Precondition Required | 要求先决条件
+429 | Too Many Requests | 太多请求
+431 | Request Header Fields Too Large | 请求头字段太大
+511 | Network Authentication Required | 要求网络认证
